@@ -1,0 +1,61 @@
+.Orderlist{
+    display: grid;
+    grid-template-areas: 'dish dish quantity price button';
+    grid-template-columns: 4fr 1fr 2fr 1fr;
+    height: 30px;
+    margin:auto auto;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    bottom: 2px ;
+    box-shadow:  0px 0px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    width: 700px;
+    border-radius: 10px
+}
+
+.Orderlist .dish{
+    grid-area: 'dish';
+    margin: auto
+}
+.Orderlist .quantity{
+    grid-area: 'quantity';
+    margin: auto;
+    border: 1px solid #BBB;
+    background-color: #E8E8E8;
+     border-radius: 5px;
+}
+.Orderlist .price{
+    grid-area:'price';
+    margin: auto
+}
+
+
+.Orderlist .quantity .Button{
+        width: 20px;
+        height: 20px;
+        font: 16px "Trebuchet MS", Tahoma, Arial, sans-serif;
+        outline: none;
+        position: relative;
+        cursor: pointer;
+        color: #555;
+        border: 0px ;
+        text-shadow: 1px 1px #FAFAFA;
+        background-color: #E8E8E8;
+    }
+    .Orderlist .buttonDelete{
+        grid-area:'button';
+        margin: auto;
+        border: 1px solid rgba(187, 187, 187,0.1);
+        background-color: rgba(232, 232, 232,0.1);
+         border-radius: 5px;
+         color: rgba(154, 147, 140, 0.5)
+    }
+
+    .Orderlist .buttonDelete:hover{
+        border: 1px solid rgba(187, 187, 187);
+        background-color: rgba(232, 232, 232);
+         border-radius: 5px;
+         color: rgba(154, 147, 140)
+    }
+    
+
+  

@@ -1,0 +1,23 @@
+.MainList{
+    display: grid;
+    grid-template-areas: 'price price'
+                         'orderlist formlist';
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    margin-top: 30px                         
+}
+
+.MainList .Price{
+    grid-area: price 
+}
+.MainList .OrderPrice{
+    text-align: right;
+}
+.MainList .MainOrderlist{
+
+    grid-area: orderlist;
+}
+.MainList .MainFormlist{
+    grid-area:formlist
+}
